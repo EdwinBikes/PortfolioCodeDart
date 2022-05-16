@@ -1,0 +1,60 @@
+void main() {
+  
+String nombre = ("lfo");
+String trabajo = ("fisioterapeuta");
+String descripcion  = ("mide 150 y come como loca");
+  
+  
+  switch (nombre) {
+      
+    case "edwin":
+      print ("esta dormido como siempre");
+      
+      break;
+      
+    case "moncho" :
+      print ("El si es un que nos esta enseñando,se dedica a $trabajo y es $descripcion");
+      
+      break;  
+      
+    case "yir" :
+      print ("Es una $trabajo es muy malgeniada, $descripcion");
+      
+      break;
+    
+      case "leo" :
+      print ("Es un españolete tio, se dedica a $trabajo y es $descripcion");
+      
+      break;
+      
+      case "oscar" :
+      print ("Es un pollo dormilon,se dedica a $trabajo y es $descripcion");
+      
+      break;
+      
+      case "jorge" :
+      print ("Es el abuelo de la familia peña no duerme mucho,se dedica a $trabajo y es $descripcion");
+      
+      break;
+      
+      case "ana" :
+      print ("Doña maria es la abuela de la familia peña y la mujer de la casa,se dedica a $trabajo y es $descripcion");
+      
+      break;
+      
+      case "nicolas" :
+      print ("Es el hijo del papucho de Edwin y Sifri, se dedica a $trabajo y es $descripcion");
+      
+      break;
+      
+      case "salome" :
+      print ("Es la nieta de los abuelos de la familia peña jaja y un poquitico inquieta como el papá, se dedica a $trabajo y es $descripcion");
+      
+      break;
+      
+    default: 
+      print ("los datos sumistrados no se encuentran en la base de datos");
+  }
+    
+}
+  
