@@ -12,7 +12,7 @@ void main() {
 
 
 void main() {
-  int cuantos = 10;
+  int tablas = 10;
     
   imprimirTablas(multiplo,cantidad){
   
@@ -23,13 +23,8 @@ void main() {
   }
   }
   
-  imprimirTablas(1,cuantos);
-  imprimirTablas(2,cuantos);
-  imprimirTablas(3,cuantos);
-  imprimirTablas(4,cuantos);
-  imprimirTablas(5,cuantos);
-  imprimirTablas(6,cuantos);
-  imprimirTablas(7,cuantos);
-  imprimirTablas(8,cuantos);
+  imprimirTablas(1,tablas);
+  imprimirTablas(2,tablas);
+  imprimirTablas(3,tablas);
   
 }
