@@ -1,7 +1,6 @@
 void main() {
   calcularNota(nota) {
     var notaLetra = "";
-
     if (nota >= 90) {
       notaLetra = "A";
     } else {
@@ -20,9 +19,7 @@ void main() {
         }
       }
     }
-
     print("la nota $nota es igual al resultado $notaLetra");
   }
-
   calcularNota(50);
 }
