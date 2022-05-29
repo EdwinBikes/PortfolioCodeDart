@@ -1,7 +1,5 @@
-void main() {
-  int nota = 64;
-  var notaLetra = "";
-
+  let nota = 64;
+  let notaLetra = "";
   if (nota >= 90) {
     notaLetra = "A";
   } else {
@@ -20,6 +18,4 @@ void main() {
       }
     }
   }
-
-  print("la nota $nota es igual al resultado $notaLetra");
-}
+  console.log("la nota $nota es igual al resultado $notaLetra");

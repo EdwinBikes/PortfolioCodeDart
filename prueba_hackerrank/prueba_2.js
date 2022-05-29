@@ -86,7 +86,5 @@ function main() {
     const result = calcularDias(prestamo);
 
     ws.write(result.join('\n') + '\n');
-
     ws.end();
 }
-
