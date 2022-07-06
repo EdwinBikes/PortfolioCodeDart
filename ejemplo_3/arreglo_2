@@ -1,0 +1,5 @@
+let personas = ['Maria','Jose','Pedro'];
+let salario = ['1000','2000','3000'];
+  for (let i = 0; i < personas.length; i++) {
+    console.log(personas[i]+ " tiene un salario " + salario[i]);
+  }
