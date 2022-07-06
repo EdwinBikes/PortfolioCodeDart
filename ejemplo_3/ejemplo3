@@ -1,1 +1,5 @@
-a
+//arreglos
+
+let flores = ['rosa','girasol','clavel'];
+
+console.log(flores[2]); // = clavel (porque los arreglos son con base 0)
