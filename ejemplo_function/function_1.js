@@ -1,4 +1,4 @@
-  calcularNota(nota) {
+function calcularNota(nota) {
     let notaLetra = "";
     if (nota >= 90) {
       notaLetra = "A";
@@ -18,8 +18,8 @@
         }
       }
     }
-    console.log("la nota $nota es igual al resultado $notaLetra");
-  }
+    console.log("El resultado " + nota +" la nota seria " + notaLetra);
+};
   calcularNota(50);
   calcularNota(75);
   calcularNota(63);
